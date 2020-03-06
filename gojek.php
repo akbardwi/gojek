@@ -1,10 +1,10 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "func.php";
-echo color("red","[]          TUYUL TEMPEK GAES          []\n");
-echo color("green","[]           NOM NOMAN TAEKK           []\n");
-echo color("yellow","[] Coli:  ".date('[d-m-Y] [H:i:s]')."  []\n");
-echo color("red","[]        TULIS NOMER PAKAI 62         []\n");
+echo color("red","[]          Auto Register & Claim Voucher Gojek          []\n");
+echo color("green","[]           By Akbar Dwi           []\n");
+echo color("yellow","[] Started:  ".date('[d-m-Y] [H:i:s]')."  []\n");
+echo color("red","[]        TULIS NOMER PAKAI 62 (ID) / 1 (US)         []\n");
 function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
